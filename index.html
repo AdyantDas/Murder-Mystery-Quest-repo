@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <title> Murder Mystery Hackathon</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+        <nav>
+            <a href="index.html"><img src="2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index2.html">EVENT</a></li>
+                    <li><a href="https://www.instagram.com/srm_cn">CONTACT</a></li>
+                    <li><a href="https://www.codingninjas.com/landing/10x-club">ABOUT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>   
+        <div class="text-box">
+            <h1>Murder Mystery Quest</h1>
+            <p>Our Latest event which will guarantee you a fun time and an <br> innovative 
+                expereince to get you ready for the future</p>
+            <a href="index2.html" class="tag-button">Learn More</a>
+
+        </div>
+        </section>
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>    
+    </body>
+</html>

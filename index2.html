@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Club Event Poster</title>
+  <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+            <a href="index.html"><img src="2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index2.html">EVENT</a></li>
+                    <li><a href="https://www.instagram.com/srm_cn">CONTACT</a></li>
+                    <li><a href="https://www.codingninjas.com/landing/10x-club">ABOUT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>   
+  <header>
+    <h1>Murder Mystery Hackathon</h1>
+    <p>Organized by Coding Club | 12th Oct 2025</p>
+  </header>
+
+  <section class="event-details">
+    <h2>About the Event</h2>
+    <p>An innovative expereince where you become a digital sherlock holmes and solve mysteries</p>
+  </section>
+
+  <section class="highlights">
+    <h2>Event Highlights</h2>
+    <ul>
+      <li>Brain-teasing riddles & ciphers 🔐</li>
+      <li>Interactive roleplay with suspects 🎭</li>
+      <li>Race against the clock ⏳</li>
+      <li>Exciting prizes for the first team to solve the mystery 🏆</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>📅 Date: October 20, 2025</p>
+    <p>📍 Venue: TP Ganeshan Auditorium</p>
+    <p>📧 Contact: info.codingninjas10xsrm@gmail.com</p>
+    <a href="https://www.codingninjas.com/landing/10x-club">Register Now</a>
+  </footer>
+  <script>
+        var navLinks=document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>    
+</body>
+</html>
